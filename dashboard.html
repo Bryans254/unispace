@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="das.css" >
+    
+  <title>UNISPACE OPPORTUNITIES LTD</title>
+  <link rel="icon" type="image/x-icon" href="./img/FAV/favicon.ico">
+</head>
+
+<body>
+  <section id="header1">
+    <div class="logo">
+      <a >UNISPACE OPPORTUNITIES</a>
+    </div>
+    <div> 
+      <ul id="navbar">
+        <li><a class="active" href="dashboard.html">Home</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="dropdown">
+          <a href="services.html">Services</a>
+          <ul class="dropdown-content">
+            <li><a href="projectmngnt.html">project management</a></li>
+            <li><a href="contractdvsn.html">contract division</a></li>
+            <li><a href="construction.html">construction</a></li>
+            <li><a href="interior.html">interior design</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <a href="#" id="close"><i class="fal fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <section class="products_display">
+    <div class="view_projects">
+      <h4>Super value deals</h4>
+      <h2>On All Our Services</h2>
+    
+      <a type="button" class="cta" onclick ="return pi()">BROWSE ALL</a>
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="myradio" id="radio1">
+        <input type="radio" name="myradio" id="radio2">
+        <input type="radio" name="myradio" id="radio3">
+        <input type="radio" name="myradio" id="radio4">
+
+        <div class="slide fast">
+          <img src="img/general/gn-11.jpeg">
+
+        </div>
+
+        <div class="slide">
+          <img src="img/home/hm-0.jpg">
+
+        </div>
+
+        <div class="slide">
+          <img src="img/home/hm-1.jpg">
+
+        </div>
+
+        <div class="slide">
+          <img src="img/home/hm-3.jpg">
+
+        </div>
+
+
+        <div class="nav-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        </div>
+        
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+
+      </div>
+    </div>
+
+  </section>
+  <section id="qwqww">
+    <div id="qww">
+      <h2>
+        INTERIOR DESIGNS
+      </h2>
+      <p>Interior ceiling designs can greatly enhance the overall aesthetic of a place. We play with
+        lighting placement to highlight architectural features and create ambiance. Choosing the right color
+        or texture for the ceiling can also impact the room`s atmosphere. Don`t forget the impact of materials
+        ;from wood panelling to metallic finishes, they can contribute to a unique and stylish ceiling design. 
+      </p>
+    </div>
+    <div id="qee">
+      <img src="img/home/gn-2.jpg">
+
+    </div>
+
+  </section>
+  <section id="qwqw">
+    <div id="qw">
+      <h2>
+        LIGHTING
+      </h2>
+      <p>Here we make such products at very affordable prices.
+         Visit unispace Opportunities for such nice products and prices</p>
+    </div>
+    <div id="qe">
+      <img src="img/general/gn-8.jpeg">
+
+    </div>
+
+  </section>
+
+  <footer class="section-p1" id="opop">
+    <div class="col">
+      
+      <h4>Contact</h4>
+      <p><strong>Address: </strong> P.O BOX 20657-00200 City Square</p>
+      <p><strong>Phone:</strong> +25470 7877 847</p>
+      <p><strong>Hours:</strong>10:00 AM - 18:00 PM, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f" onclick="window.location.href='https://www.facebook.com/unispaceopportunities/photos';"></i>
+          <i class="fab fa-twitter" onclick="window.location.href='https://twitter.com/Unispace254';"></i>
+          <i class="fab fa-instagram" onclick="window.location.href='https://www.instagram.com/unispace_opportunities/' "></i>
+          <i class="fab fa-youtube" onclick="window.location.href='https://www.youtube.com/@unispace_opportunities'"></i>
+          <i class="fab fa-telegram" onclick="window.location.href='https://web.telegram.org/k/#@unispaceopportunities'"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About </h4>
+  
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account </h4>
+      <a href="#">Sign In</a>
+    
+      <a href="#">Help</a>
+    </div>
+    
+   
+
+    <div class="copyright">
+      <p>© 2024, Unispace Opportunities EA. All Rights Reserved </p>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter ++;
+      if(counter>4){
+        counter=1;
+      }
+
+    },5000);
+  </script>
+<script src="das.js"></script>
+
+</body>
+
+</html>
